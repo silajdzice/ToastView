@@ -25,14 +25,6 @@ extension UIView {
         }
     }
     
-    func fadeOut(alpha: CGFloat, duration: Double = 0.3, _ finished: @escaping () -> Void) {
-        UIView.animate(withDuration: duration, animations: {
-            self.alpha = alpha
-        }) { _ in
-            finished()
-        }
-    }
-    
     func fadeIn(duration: Double = 0.3, _ finished: @escaping () -> Void = {}) {
         UIView.animate(withDuration: duration, animations: {
             self.alpha = 1
