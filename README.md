@@ -86,5 +86,3 @@ Contributions are very welcome 🙌. Feel free to submit a pull request.
 
 ToastView is available under the MIT license. See the LICENSE file for more info.
 ```
-
-Remember to replace placeholder texts with the actual information where necessary. If you include license information, ensure it matches the license under which you're releasing your library. Also, consider adding a `LICENSE` file to your repository if you haven't done so already.
